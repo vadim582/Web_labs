@@ -1,0 +1,22 @@
+// 5 task
+const findMaxDate = (arr) => {
+    const MaxDate = new Date(Math.max.apply(null, arr));
+    console.log(MaxDate);
+};
+const getDateArray = (start, end) => {
+
+    let arr = [];
+  
+    while (start <= end) {
+      arr.push(new Date(start));
+      start.setDate(start.getDate() + 1);
+    }
+    return arr;
+  };
+
+let startDate = new Date('2019-12-01');
+let endDate = new Date('2019-12-20');
+let arrDate = getDateArray(startDate, endDate);
+console.log(arrDate);
+
+findMaxDate(arrDate);
