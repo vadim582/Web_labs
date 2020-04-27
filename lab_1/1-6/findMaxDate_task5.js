@@ -15,8 +15,10 @@ const getDateArray = (start, end) => {
   };
 
 let startDate = new Date('2019-12-01');
-let endDate = new Date('2019-12-20');
+let endDate = new Date('2020-03-20');
 let arrDate = getDateArray(startDate, endDate);
 console.log(arrDate);
 
 findMaxDate(arrDate);
+
+module.exports = findMaxDate;

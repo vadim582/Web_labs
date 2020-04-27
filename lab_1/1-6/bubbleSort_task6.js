@@ -1,5 +1,5 @@
 //6 task
-const bubbleSort = (arr) => {
+module.exports = (arr) => {
     let swapped;
 
     do {
@@ -15,6 +15,3 @@ const bubbleSort = (arr) => {
     } while (swapped);
     return arr;
 };
-
-const a = [4,5,8,1,9,10,17];
-console.log(bubbleSort(a));

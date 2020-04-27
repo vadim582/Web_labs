@@ -1,8 +1,5 @@
 // 1 task
-const strFunc = (str) => {
+module.exports =  (str) => {
     const res = str.split(' ');
-    console.log(res);
+    console.log(`Task 1\n${res}`);
 };
-
-let str = 'lol kek cheburek';
-strFunc(str);

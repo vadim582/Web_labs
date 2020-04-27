@@ -1,5 +1,5 @@
 // 4 task
-const binarySearch = (arr, item) => {
+module.exports = (arr, item) => {
     let left = 0;
     let right = arr.length - 1;
     let mid = 0;
@@ -16,7 +16,3 @@ const binarySearch = (arr, item) => {
        }
     }
 };
-
-const list = [1,3,5,8,9];
-const findNum = 1;
-console.log(`The position of ${findNum} in array is ${binarySearch(list, findNum)}`);

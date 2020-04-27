@@ -6,5 +6,5 @@ const factorial_func = (num) => {
         return num * factorial_func(num - 1);
     }   
 };
-const number = 0;
-console.log(`${number}! = ${factorial_func(number)}`);
+
+module.exports = factorial_func ;

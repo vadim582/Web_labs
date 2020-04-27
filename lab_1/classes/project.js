@@ -1,17 +1,17 @@
 class Project {
-    constructor(projprojName, owner) {
-        this.projprojName = projprojName;
+    constructor(projName, owner) {
+        this.projName = projName;
         this.owner = owner;
     }
 }
 
 let Projects = [];
 const addProject = (projName, owner) => {
-    return Projects.push( new Project(projName, owner));
+    return Projects.push(new Project(projName, owner));
 };
 
 const patchProject = (indexArr, projName, owner) => {
-    Projects[indexArr].projprojName = projName;
+    Projects[indexArr].projName = projName;
     Projects[indexArr].owner = owner; 
 };
 
