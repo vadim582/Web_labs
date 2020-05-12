@@ -2,7 +2,7 @@ const task = require('./1-6/index');
 
 task.strFunc('one two three');
 
-task.findStr('Vova', 'Vova loves his PC');
+task.findStr('one', 'one two three four');
 
 console.log(`Task 3\nResult: ${task.factorial(3)}`);
 

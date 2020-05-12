@@ -1,8 +1,8 @@
 module.exports = {
-    strFunc: require('./strFunc_task1'),
-    findStr: require('./findStr_task2'),
-    factorial: require('./factorial_task3'),
-    binarySearch: require('./binarySearch_task4'),
-    findMaxDate: require('./findMaxDate_task5'),
-    bubbleSort: require('./bubbleSort_task6'),
+    strFunc: require('./task1'),
+    findStr: require('./task2'),
+    factorial: require('./task3'),
+    binarySearch: require('./task4'),
+    findMaxDate: require('./task5'),
+    bubbleSort: require('./task6'),
 };
